@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Quadratic_equation_wxwidgets" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Quadratic_equation_wxwidgets" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Quadratic_equation_wxwidgets" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="Quadratic_equation_wxwidgetsApp.cpp" />
+		<Unit filename="Quadratic_equation_wxwidgetsApp.h" />
+		<Unit filename="Quadratic_equation_wxwidgetsMain.cpp" />
+		<Unit filename="Quadratic_equation_wxwidgetsMain.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/Quadratic_equation_wxwidgetsframe.wxs" />
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project output_language="" />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<lib_finder disable_auto="1" />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="Quadratic_equation_wxwidgetsApp.cpp" main="Quadratic_equation_wxwidgetsFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/Quadratic_equation_wxwidgetsframe.wxs" src="Quadratic_equation_wxwidgetsMain.cpp" hdr="Quadratic_equation_wxwidgetsMain.h" fwddecl="0" i18n="1" name="Quadratic_equation_wxwidgetsFrame" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
